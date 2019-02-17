@@ -32,13 +32,17 @@ pen.write("Score :0 High Score:0 ",align="center",font=("Arial",24,"normal"))
 
 
 def moveup():
-    head.direction="up"
+    if(head.direction!="down"):
+        head.direction="up"
 def movedown():
-    head.direction="down"
+    if(head.direction!="up"):
+        head.direction="down"
 def moveleft():
-    head.direction="left"
+    if(head.direction!="right"):
+        head.direction="left"
 def moveright():
-    head.direction="right"
+    if(head.direction!="left"):
+        head.direction="right"
     
 def move():
     if(head.direction=="up"):
