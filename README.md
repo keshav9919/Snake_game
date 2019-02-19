@@ -7,5 +7,5 @@ controls:
          key 'a'-snake goes left
 rules:
           snake cannot touch its own body
-          snake caanot touch the bordet of game screen
+          snake cnanot touch the border of game screen
           
